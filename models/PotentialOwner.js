@@ -27,6 +27,7 @@ PotentialOwner.init(
               key: 'id',
             },
     }, 
+    },
     {
         sequelize,
         timestamps: true,
