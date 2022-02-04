@@ -20,20 +20,15 @@ PotentialOwner.init(
             type: DataTypes.INTEGER,
             allowNull: false,
         },
-        dog_id: {
-            type: DataTypes.INTEGER,
-            references: {
-              model: 'Dogs',
-              key: 'id',
-            },
-    }, 
+        
     },
+    
     {
         sequelize,
         timestamps: true,
         underscored: true,
         freezeTableName: true,
-        modelName: 'Owner',
+        modelName: 'potentialowner',
 
     });
 
