@@ -1,11 +1,6 @@
 const router = require('express').Router();
 const { Dogs, Owner, Potential } = require('../models');
 
-// const apiRoutes = require('./api');
-// const homeRoutes = require('./homeRoutes');
-
-// router.use('/', homeRoutes);
-// router.use('/api', apiRoutes);
 
 router.get('/', async (req, res) => {
     try {

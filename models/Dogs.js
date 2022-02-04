@@ -28,6 +28,10 @@ Dogs.init(
             type: DataTypes.STRING,
             allowNull: false,
         },
+        sex: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
     }, 
     {
         sequelize,
