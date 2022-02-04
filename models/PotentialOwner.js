@@ -37,4 +37,4 @@ PotentialOwner.init(
 
     });
 
-    module.exports = Owner;
+    module.exports = PotentialOwner;
