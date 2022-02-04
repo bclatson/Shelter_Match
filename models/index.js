@@ -15,5 +15,5 @@ Owner.belongsTo(PotentialOwner, {
     foreignKey: potentialOwner_id,
     onDelete: 'Cascade'
 });
-
+//exporting models
 module.exports = { Dogs, Owner, PotentialOwner };
