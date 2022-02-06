@@ -5,6 +5,7 @@ const { Dogs, Owner, PotentialOwner } = require('../../models');
 router.get('/', async (req, res) => {
     try {
         const PotentialOwnerData = await PotentialOwner.findAll();
+        console.log(potentialOwnerData);
         return res.status(200).json(potentialOwnerData);
     } catch(err) {
         return res.status(500).json(err);
